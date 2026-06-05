@@ -1,0 +1,48 @@
+# Java / Gradle
+build/
+.gradle/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Spring Boot
+application-local.yml
+application-local.properties
+
+# Logs
+*.log
+logs/
+
+# Node.js / CDK
+deployment/node_modules/
+deployment/cdk.out/
+deployment/dist/
+deployment/**/*.js
+deployment/**/*.d.ts
+!deployment/jest.config.js
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+
