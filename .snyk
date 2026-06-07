@@ -1,0 +1,119 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore:
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-10365122:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Allocation of Resources Without Limits or Throttling.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-10365310:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Authentication Bypass Using an Alternate Path or Channel.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-10674391:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Integer Overflow or Wraparound.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-10676855:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Allocation of Resources Without Limits or Throttling.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-11798986:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Session Fixation.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-11799152:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Improper Resource Shutdown or Release.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-13723930:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Improper Resource Shutdown or Release.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-13733966:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Relative Path Traversal.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-13746602:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Untrusted Search Path.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-15307781:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Improper Certificate Validation.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-15307822:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Incorrect Authorization.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-15989808:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Improper Authentication.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-15989812:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Improper Encoding or Escaping of Output.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-15989820:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Improper Authentication.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-15990633:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - HTTP Request Smuggling.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-15990787:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Open Redirect.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-16643259:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Allocation of Resources Without Limits or Throttling.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-16643276:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Timing Attack.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-16690888:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Improper Authorization.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-16691220:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Improper Validation of Syntactic Correctness of Input.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-16691224:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Improper Handling of Case Sensitivity.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-16691231:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-core@10.1.41 - Improper Authentication.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGAPACHETOMCATEMBED-16643269:
+    - '*':
+        reason: 'No remediation path available. org.apache.tomcat.embed:tomcat-embed-websocket@10.1.41 - Exposure of Private Personal Information to an Unauthorized Actor.'
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+patch: {}
