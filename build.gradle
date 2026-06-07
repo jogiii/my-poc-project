@@ -47,7 +47,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
 
     // Apache Commons Utilities
-    implementation 'org.apache.commons:commons-lang3:3.14.0'
+    implementation 'org.apache.commons:commons-lang3:3.18.0'
     implementation 'commons-io:commons-io:2.15.1'
 
     // Jackson (managed by Spring Boot BOM)
