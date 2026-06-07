@@ -1,0 +1,39 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore:
+  SNYK-JS-AJV-15274295:
+    - '*':
+        reason: No remediation path available. ajv@8.16.0 - Regular Expression Denial of Service (ReDoS).
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JS-AWSCDKLIB-9511702:
+    - '*':
+        reason: No remediation path available. aws-cdk-lib@2.147.3 - Incorrect Default Permissions.
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JS-AWSCDKLIB-9576209:
+    - '*':
+        reason: No remediation path available. aws-cdk-lib@2.147.3 - Insertion of Sensitive Information into Log File.
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JS-BRACEEXPANSION-15789759:
+    - '*':
+        reason: No remediation path available. brace-expansion@1.1.11 - Infinite loop.
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JS-MINIMATCH-15309438:
+    - '*':
+        reason: No remediation path available. minimatch@3.1.2 - Regular Expression Denial of Service (ReDoS).
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JS-MINIMATCH-15353389:
+    - '*':
+        reason: No remediation path available. minimatch@3.1.2 - Inefficient Algorithmic Complexity.
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+  SNYK-JS-YAML-15765520:
+    - '*':
+        reason: No remediation path available. yaml@1.10.2 - Uncontrolled Recursion.
+        expires: '2026-09-05T00:00:00.000Z'
+        created: '2026-06-07T00:00:00.000Z'
+patch: {}
