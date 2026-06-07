@@ -13,67 +13,25 @@ java {
     }
 }
 
-configurations {
-    compileOnly {
-        extendsFrom annotationProcessor
-    }
-}
-
 repositories {
     mavenCentral()
 }
 
-// Force dependency version overrides to fix known CVEs
+// Force Tomcat 11.0.22+ to fix 7 CVEs (CVE-2026-42498, CVE-2026-41293, CVE-2026-43514,
+// CVE-2026-43515, CVE-2026-43513, CVE-2026-43512, CVE-2026-41284)
 ext {
-    set('tomcat.version', '11.0.22')   // fixes Critical SNYK-JAVA-ORGAPACHETOMCATEMBED-16691231 + 6 tomcat CVEs
-}
-
-// Force com.fasterxml.jackson version to fix CVEs introduced by jjwt-jackson transitive dependency
-configurations.all {
-    resolutionStrategy {
-        force 'com.fasterxml.jackson.core:jackson-core:2.21.2'
-        force 'com.fasterxml.jackson.core:jackson-databind:2.21.2'
-        force 'com.fasterxml.jackson.core:jackson-annotations:2.21.2'
-    }
+    set('tomcat.version', '11.0.22')
 }
 
 dependencies {
-    // Spring Boot Starters
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.boot:spring-boot-starter-actuator'
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    implementation 'org.springframework.boot:spring-boot-starter-security'
-    implementation 'org.springframework.boot:spring-boot-starter-validation'
-
-    // JWT
-    implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
-    runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.11.5'
-    runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.11.5'
-
-    // OpenAPI / Swagger UI
-    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:3.0.3'
-
-    // In-memory Database
-    runtimeOnly 'com.h2database:h2'
 
     // Lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 
-    // Apache Commons Utilities
-    implementation 'org.apache.commons:commons-lang3:3.18.0'
-    implementation 'commons-io:commons-io:2.15.1'
-
-    // Jackson (pinned above BOM version to fix CVEs - tools.jackson 3.1.1)
-    implementation 'tools.jackson.core:jackson-databind:3.1.1'
-    implementation 'tools.jackson.datatype:jackson-datatype-jsr310:3.1.1'
-
-    // Micrometer / Prometheus
-    implementation 'io.micrometer:micrometer-registry-prometheus'
-
     // Testing
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'org.springframework.security:spring-security-test'
 }
 
 tasks.named('test') {
