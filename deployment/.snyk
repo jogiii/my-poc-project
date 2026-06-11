@@ -1,5 +1,29 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
 version: v1.25.0
-
+ignore:
+  SNYK-JS-IP-12704893:
+    - '*':
+        reason: No remediation path available. ip@2.0.1 - Server-side Request Forgery (SSRF).
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JS-IP-12761655:
+    - '*':
+        reason: No remediation path available. ip@2.0.1 - Server-side Request Forgery (SSRF).
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JS-IP-7148531:
+    - '*':
+        reason: No remediation path available. ip@2.0.1 - Server-Side Request Forgery (SSRF).
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JS-JSONSCHEMA-1920922:
+    - '*':
+        reason: No remediation path available. json-schema@0.2.3 - Prototype Pollution.
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JS-NODEFETCH-2342118:
+    - '*':
+        reason: No remediation path available. node-fetch@2.6.6 - Information Exposure.
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
 patch: {}
-
