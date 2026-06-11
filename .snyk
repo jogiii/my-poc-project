@@ -16,4 +16,74 @@ ignore:
         reason: No remediation path available. ip@2.0.1 - Server-Side Request Forgery (SSRF).
         expires: '2026-09-05T00:00:00.000Z'
         created: '2026-06-07T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17253311:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-expression@7.0.7 - Inefficient Algorithmic Complexity.'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17253570:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-expression@7.0.7 - Exposed Dangerous Method or Function.'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17253520:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-web@7.0.7 - Missing Release of Memory after Effective Lifetime.'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17254109:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-web@7.0.7 - HTTP Request Smuggling.'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17254128:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-web@7.0.7 - Session Fixation.'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17254521:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-web@7.0.7 - Server-side Request Forgery (SSRF).'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17255245:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-web@7.0.7 - Cross-site Scripting (XSS).'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17255206:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-core@7.0.7 - Allocation of Resources Without Limits or Throttling.'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17254051:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-core@7.0.7 - Regular Expression Denial of Service (ReDoS).'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17254062:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-webmvc@7.0.7 - Cross-site Scripting (XSS).'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17254116:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-webmvc@7.0.7 - Directory Traversal.'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17254121:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-webmvc@7.0.7 - Open Redirect.'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17254527:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-webmvc@7.0.7 - Direct Request (''Forced Browsing'').'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
+  SNYK-JAVA-ORGSPRINGFRAMEWORK-17254544:
+    - '*':
+        reason: 'No remediation path available. org.springframework:spring-webmvc@7.0.7 - Allocation of Resources Without Limits or Throttling.'
+        expires: '2026-09-09T00:00:00.000Z'
+        created: '2026-06-11T00:00:00.000Z'
 patch: {}
